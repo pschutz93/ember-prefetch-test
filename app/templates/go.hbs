@@ -1,0 +1,7 @@
+<p>{{model.message}}</p>
+{{#link-to 'go' 'I am a dynamic segment!'}}
+  Dynamic Segment link.
+{{/link-to}}
+{{#link-to 'go' 'gone' (query-params q="I am a query parameter!")}}
+  Query Parameter link
+{{/link-to}}
